@@ -20,14 +20,14 @@ public class App {
         Menu menu = new Menu(10, 10); 
 
     
-        menu.addItem(new MenuItem("Beef Burger", 5.99));
-        menu.addItem(new MenuItem("Chicken Burger", 4.99));
-        menu.addItem(new MenuItem("Cheese Burger", 6.49));
+        menu.addItem(new MenuItem("Beef Burger", 5));
+        menu.addItem(new MenuItem("Chicken Burger", 4));
+        menu.addItem(new MenuItem("Cheese Burger", 6));
         
-        menu.addAddition(new Addition("catchup", 1.99));
-        menu.addAddition(new Addition("cheese", 0.99));
-        menu.addAddition(new Addition("Mayonnise", 0.99));
-        menu.addAddition(new Addition("tomatoes", 0.99));
+        menu.addAddition(new Addition("catchup", 1));
+        menu.addAddition(new Addition("cheese", 2));
+        menu.addAddition(new Addition("Mayonnise", 3));
+        menu.addAddition(new Addition("tomatoes", 4));
 
         while (true) {
             System.out.println("Please choose an option:");
