@@ -39,7 +39,7 @@ public class App {
             System.out.println("6 - Exit");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume the newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -62,7 +62,7 @@ public class App {
                     String newAdditionName = scanner.nextLine();
                     System.out.println("Enter the price of the new addition:");
                     double newAdditionPrice = scanner.nextDouble();
-                    scanner.nextLine(); // consume the newline
+                    scanner.nextLine(); 
                     menu.addAddition(new Addition(newAdditionName, newAdditionPrice));
                     System.out.println("Addition added.");
                     break;
@@ -79,7 +79,7 @@ public class App {
                     System.out.println("You selected: " + selectedItem);
 
                     System.out.println("Do you want to add any additions? (yes/no)");
-                    scanner.nextLine(); // consume the newline
+                    scanner.nextLine(); 
                     String addAdditions = scanner.nextLine();
 
                     if (addAdditions.equalsIgnoreCase("yes")) {
