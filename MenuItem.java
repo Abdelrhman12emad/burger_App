@@ -8,11 +8,11 @@ package app;
  *
  * @author Abdulrahman
  */
-public class Addition {
+public class MenuItem {
      String name;
     double price;
 
-    Addition(String name, double price) {
+    MenuItem(String name, double price) {
         this.name = name;
         this.price = price;
     }
