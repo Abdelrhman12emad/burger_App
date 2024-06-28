@@ -10,9 +10,9 @@ package burger;
  */
 class User {
   protected int item;
- protected int Beef_Burger=80;
- protected int Chicken_Burger=90;
- protected int Cheese_Burger=100;
+ protected int Beef_Burger;
+ protected int Chicken_Burger;
+ protected int Cheese_Burger;
   
     public void setitem (int item){
    this.item=item;
