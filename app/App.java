@@ -17,9 +17,9 @@ public class App {
      */
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
-        Menu menu = new Menu(10, 10);  // تحديد حجم المصفوفات مسبقاً
+        Menu menu = new Menu(10, 10); 
 
-        // إضافة بعض العناصر والإضافات بشكل افتراضي
+    
         menu.addItem(new MenuItem("Beef Burger", 5.99));
         menu.addItem(new MenuItem("Chicken Burger", 4.99));
         menu.addItem(new MenuItem("Cheese Burger", 6.49));
